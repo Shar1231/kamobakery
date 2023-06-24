@@ -1,0 +1,145 @@
+body {
+  background-color: #f2f2f2;
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+header {
+  background-color: #e5c491; /* Brown */
+  padding: 10px;
+}
+
+h1 {
+  font-size: 36px !important; /* Adjust the font size as desired */
+}
+
+nav ul li a {
+  color: #6d4c00; /* Brown */
+}
+
+nav ul li a:hover {
+  color: #ff7f00; /* Orange */
+}
+
+main {
+  padding: 20px;
+}
+
+footer {
+  background-color: #e5c491; /* Brown */
+  padding: 10px;
+  text-align: center;
+}
+
+a {
+  color: #333;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #ff7f00; /* Orange */
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center; /* Add this line to center the buttons */
+}
+
+nav ul li {
+  display: inline-block; /* Display the list items side by side */
+  margin-right: 10px;
+}
+
+main {
+  text-align: center; /* Add this line to center-align the content */
+}
+
+main h1 {
+  font-size: 24px;
+}
+
+main p {
+  font-size: 16px;
+}
+
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #e5c491; /* Brown */
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #ff7f00; /* Orange */
+  color: #fff;
+}
+
+
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  height: 40px; /* Adjust the height as needed */
+  margin-right: 10px; /* Add margin for spacing */
+}
+
+nav ul {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  margin-right: 10px; /* Add margin for spacing */
+}
+
+nav li:last-child {
+  margin-right: 0; /* Remove margin for the last button */
+}
+
+.menu-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1em; /* Add margin-bottom to create spacing between menu items */
+}
+
+.menu-item-image {
+  flex: 0 0 auto;
+  margin-right: 0.5em;
+  width: 10em; /* Adjust the width as desired */
+  border: 2px solid #E7B56F; /* Border color matching the theme */
+  border-radius: 50%; /* Make it a circle */
+  overflow: hidden; /* Hide any content that exceeds the circle */
+}
+
+.menu-item-image img {
+  width: 100%;
+  height: auto;
+}
+
+.menu-item-content {
+  flex: 1;
+}
+
+.menu-item-title {
+  display: flex;
+  justify-content: center; /* Horizontally center the title */
+}
+
+
+
